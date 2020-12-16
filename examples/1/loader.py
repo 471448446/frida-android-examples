@@ -12,4 +12,6 @@ with open("s1.js") as f:
 script.load()
 
 # prevent the python script from terminating
-raw_input()
+# raw_input()
+# https://stackoverflow.com/questions/954834/how-do-i-use-raw-input-in-python-3
+input()
